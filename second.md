@@ -45,3 +45,17 @@
     第三步:git add [文件名]  
     第四步:git commit -m "日志信息"  
       * 注:此时提交不能带文件名
+
+- 克隆远程仓库  
+`git clone 仓库地址`
+- 添加到暂存区  
+`git add filename`
+- 提交到本地仓库  
+`git commit -m '提交描述'`
+- 推送到远程仓库  
+`git push`
+- 从远程仓库拉取  
+  * pull = fetch + merge
+  * `git fetch [远程地址库别名][远程分支名]`
+  * `git merge [远程地址库别名/远程分支名]`
+  * `git pull [远程库地址别名][远程分支名]`
