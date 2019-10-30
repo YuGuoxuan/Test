@@ -27,4 +27,12 @@
 `git rm filename`
 - 提交删除操作:  
 `git commit -m '提交描述'`
-
+## 6.提交到远程仓库
+- 克隆远程仓库  
+`git clone 仓库地址`
+- 添加到暂存区  
+`git add filename`
+- 提交到本地仓库  
+`git commit -m '提交描述'`
+- 推送到远程仓库  
+`git push`
