@@ -36,3 +36,8 @@
 `git commit -m '提交描述'`
 - 推送到远程仓库  
 `git push`
+- 从远程仓库拉取  
+  * pull = fetch + merge
+  * `git fetch [远程地址库别名][远程分支名]`
+  * `git merge [远程地址库别名/远程分支名]`
+  * `git pull [远程库地址别名][远程分支名]`
