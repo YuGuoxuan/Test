@@ -27,5 +27,16 @@
     删除操作已经提交到本地库:指针位置指向历史记录  
     删除操作尚未提交到本地库:指针位置使用HEAD
 - 文件比较  
-`git diff [filename]` 表示和暂存区进行比较
-'git diff head^ [filename]` 和某个版本进行比较
+`git diff [filename]` 表示和暂存区进行比较  
+`git diff head^ [filename]` 和上个版本进行比较  
+`git diff [版本号]` 和某个版本进行比较  
+
+- 分支操作
+  * 查看分支 `git branch -v`
+  * 创新新分支 `git branch [分支名称]`
+  * 切换分支 `git checkout [分支名称]`
+  * 合并分支
+    * 切换到接受修改的分支上
+    * 执行merge操作进行合并  
+    git merge [分支名称]
+    
